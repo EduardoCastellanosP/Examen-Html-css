@@ -368,10 +368,19 @@ a {
  }
 
  .dots {
-    width: 190px;
+    width: 170px;
  }
 
 .text6 {
     color: white;
     text-align: center;
+}
+.menu-links {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+hr {
+    border: 1px solid rgb(255, 112, 42)
 }
