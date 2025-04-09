@@ -88,16 +88,19 @@ li.nav-link a {
   
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   nav .bars {
     display: block;
   }
 
   nav .nav-links {
     display: none;
+   
+    
   }
-}
 
+ 
+}
 .contenedor-general {
     background-color: rgb(30, 29, 43);
     
@@ -463,10 +466,44 @@ hr {
           
       }
 
-      .menu-section3 {
+     .section4 {
+        display: block;
+        padding: 30px 10px 8px 10px ;
+        padding-bottom: 80px;
+        justify-content: center;
+     }
+
+     .img2 {
+        width: 300px;
+     }
+
+     .contenedor-imagenes2 {
+        display: block;
+     }
+
+     .section5 {
+        display: block;
+        padding: 30px 10px 8px 10px ;
+        padding-bottom: 80px;
+        align-items: center;
+        justify-content: center;
+       
+     }
+
+     .contenedor-section5 {
+    
+        width: auto;
+     }
+     .text5{
+        font-size: 2rem;
         text-align: center;
-        padding-bottom: 60px;
-    }
+     }
+
+     .section6 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 50px;
+     }
 
 
     
